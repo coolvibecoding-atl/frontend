@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773377252690" clover="3.2.0">
+  <project timestamp="1773377252691" name="All files">
+    <metrics statements="1654" coveredstatements="385" conditionals="1197" coveredconditionals="152" methods="371" coveredmethods="63" elements="3222" coveredelements="600" complexity="0" loc="1654" ncloc="1654" packages="33" files="65" classes="65"/>
+    <package name="app">
+      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="layout.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/layout.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/page.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(auth).sign-in">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/(auth)/sign-in/page.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(auth).sign-up">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/(auth)/sign-up/page.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api-docs">
+      <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api-docs/page.tsx">
+        <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="208" count="0" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.batch">
+      <metrics statements="42" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/batch/route.ts">
+        <metrics statements="42" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="127" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.download">
+      <metrics statements="41" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/download/route.ts">
+        <metrics statements="41" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.export">
+      <metrics statements="31" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/export/route.ts">
+        <metrics statements="31" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.process">
+      <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/process/route.ts">
+        <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.progress">
+      <metrics statements="39" coveredstatements="0" conditionals="26" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/progress/route.ts">
+        <metrics statements="39" coveredstatements="0" conditionals="26" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.share">
+      <metrics statements="46" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/share/route.ts">
+        <metrics statements="46" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="114" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.stripe.checkout">
+      <metrics statements="13" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/stripe/checkout/route.ts">
+        <metrics statements="13" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.stripe.portal">
+      <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/stripe/portal/route.ts">
+        <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.stripe.webhook">
+      <metrics statements="36" coveredstatements="0" conditionals="47" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/stripe/webhook/route.ts">
+        <metrics statements="36" coveredstatements="0" conditionals="47" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="97" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.subscription">
+      <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/subscription/route.ts">
+        <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.tracks">
+      <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/tracks/route.ts">
+        <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.api.upload">
+      <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="route.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/api/upload/route.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.dashboard">
+      <metrics statements="63" coveredstatements="0" conditionals="80" coveredconditionals="0" methods="20" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/dashboard/page.tsx">
+        <metrics statements="63" coveredstatements="0" conditionals="80" coveredconditionals="0" methods="20" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="110" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="291" count="0" type="stmt"/>
+        <line num="295" count="0" type="stmt"/>
+        <line num="332" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.dashboard.history">
+      <metrics statements="33" coveredstatements="0" conditionals="50" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/dashboard/history/page.tsx">
+        <metrics statements="33" coveredstatements="0" conditionals="50" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.dashboard.profile">
+      <metrics statements="27" coveredstatements="0" conditionals="70" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/dashboard/profile/page.tsx">
+        <metrics statements="27" coveredstatements="0" conditionals="70" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="10"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.mixer">
+      <metrics statements="109" coveredstatements="0" conditionals="121" coveredconditionals="0" methods="43" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/mixer/page.tsx">
+        <metrics statements="109" coveredstatements="0" conditionals="121" coveredconditionals="0" methods="43" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="123" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="138" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="168" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="286" count="0" type="stmt"/>
+        <line num="356" count="0" type="stmt"/>
+        <line num="360" count="0" type="stmt"/>
+        <line num="362" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="363" count="0" type="stmt"/>
+        <line num="364" count="0" type="stmt"/>
+        <line num="393" count="0" type="stmt"/>
+        <line num="397" count="0" type="stmt"/>
+        <line num="399" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="400" count="0" type="stmt"/>
+        <line num="401" count="0" type="stmt"/>
+        <line num="445" count="0" type="stmt"/>
+        <line num="449" count="0" type="stmt"/>
+        <line num="451" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="452" count="0" type="stmt"/>
+        <line num="453" count="0" type="stmt"/>
+        <line num="481" count="0" type="stmt"/>
+        <line num="518" count="0" type="stmt"/>
+        <line num="522" count="0" type="stmt"/>
+        <line num="524" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="525" count="0" type="stmt"/>
+        <line num="526" count="0" type="stmt"/>
+        <line num="549" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="568" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="569" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="600" count="0" type="stmt"/>
+        <line num="622" count="0" type="stmt"/>
+        <line num="636" count="0" type="stmt"/>
+        <line num="653" count="0" type="stmt"/>
+        <line num="676" count="0" type="stmt"/>
+        <line num="690" count="0" type="stmt"/>
+        <line num="707" count="0" type="stmt"/>
+        <line num="729" count="0" type="stmt"/>
+        <line num="743" count="0" type="stmt"/>
+        <line num="813" count="0" type="stmt"/>
+        <line num="897" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.share.[token]">
+      <metrics statements="14" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/app/share/[token]/page.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="57" coveredstatements="43" conditionals="48" coveredconditionals="37" methods="24" coveredmethods="16"/>
+      <file name="BatchUpload.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/BatchUpload.tsx">
+        <metrics statements="51" coveredstatements="43" conditionals="46" coveredconditionals="37" methods="20" coveredmethods="16"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="35" type="stmt"/>
+        <line num="28" count="35" type="stmt"/>
+        <line num="29" count="35" type="stmt"/>
+        <line num="32" count="136" type="stmt"/>
+        <line num="33" count="136" type="stmt"/>
+        <line num="34" count="136" type="stmt"/>
+        <line num="36" count="35" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="38" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="46" count="35" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="35" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="35" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="75" count="35" type="stmt"/>
+        <line num="76" count="35" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="87" count="35" type="stmt"/>
+        <line num="90" count="35" type="stmt"/>
+        <line num="91" count="136" type="cond" truecount="3" falsecount="1"/>
+        <line num="93" count="34" type="stmt"/>
+        <line num="95" count="34" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="99" count="68" type="stmt"/>
+        <line num="103" count="35" type="stmt"/>
+        <line num="144" count="136" type="stmt"/>
+        <line num="152" count="9" type="stmt"/>
+        <line num="153" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="154" count="1" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="ServiceWorkerRegister.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/ServiceWorkerRegister.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.audio">
+      <metrics statements="36" coveredstatements="0" conditionals="54" coveredconditionals="0" methods="16" coveredmethods="0"/>
+      <file name="BeforeAfterPlayer.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/audio/BeforeAfterPlayer.tsx">
+        <metrics statements="36" coveredstatements="0" conditionals="54" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="257" count="0" type="stmt"/>
+        <line num="263" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.auth">
+      <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="AuthLayout.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/auth/AuthLayout.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.sections">
+      <metrics statements="139" coveredstatements="0" conditionals="116" coveredconditionals="0" methods="60" coveredmethods="0"/>
+      <file name="FAQ.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/FAQ.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="FeatureRack.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/FeatureRack.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+      </file>
+      <file name="Footer.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/Footer.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+      </file>
+      <file name="HeroConsole.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/HeroConsole.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+      </file>
+      <file name="HowItWorks.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/HowItWorks.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+      </file>
+      <file name="LandingNav.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/LandingNav.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+      </file>
+      <file name="PricingCard.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/PricingCard.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+      </file>
+      <file name="PricingSection.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/PricingSection.tsx">
+        <metrics statements="19" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+      </file>
+      <file name="Testimonials.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/Testimonials.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+      </file>
+      <file name="UploadDemo.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/sections/UploadDemo.tsx">
+        <metrics statements="69" coveredstatements="0" conditionals="58" coveredconditionals="0" methods="21" coveredmethods="0"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="141" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="151" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="156" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="237" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ui">
+      <metrics statements="28" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="Oscilloscope.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/ui/Oscilloscope.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="button.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/ui/button.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="card.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/ui/card.tsx">
+        <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="progress.tsx" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/components/ui/progress.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib">
+      <metrics statements="333" coveredstatements="65" conditionals="200" coveredconditionals="29" methods="72" coveredmethods="11"/>
+      <file name="audio-queue.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/audio-queue.ts">
+        <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="cache.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/cache.ts">
+        <metrics statements="57" coveredstatements="46" conditionals="10" coveredconditionals="8" methods="10" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="49" count="17" type="stmt"/>
+        <line num="50" count="17" type="stmt"/>
+        <line num="53" count="17" type="stmt"/>
+        <line num="55" count="17" type="stmt"/>
+        <line num="66" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+        <line num="70" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="107" count="5" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="119" count="2" type="stmt"/>
+        <line num="120" count="2" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="151" count="1" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="156" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="158" count="1" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="173" count="1" type="stmt"/>
+        <line num="174" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="175" count="1" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="201" count="2" type="stmt"/>
+        <line num="207" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="208" count="1" type="stmt"/>
+        <line num="209" count="1" type="stmt"/>
+        <line num="212" count="1" type="stmt"/>
+        <line num="215" count="1" type="stmt"/>
+        <line num="218" count="1" type="stmt"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="233" count="1" type="stmt"/>
+      </file>
+      <file name="csrf.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/csrf.ts">
+        <metrics statements="17" coveredstatements="0" conditionals="17" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+      <file name="fileValidation.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/fileValidation.ts">
+        <metrics statements="20" coveredstatements="19" conditionals="22" coveredconditionals="21" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="7" type="cond" truecount="6" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="6" type="cond" truecount="6" falsecount="0"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+      </file>
+      <file name="monitoring.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/monitoring.ts">
+        <metrics statements="53" coveredstatements="0" conditionals="34" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="103" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="118" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="122" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="155" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="174" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="195" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="197" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="199" count="0" type="stmt"/>
+      </file>
+      <file name="prisma.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/prisma.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="rateLimiter.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/rateLimiter.ts">
+        <metrics statements="24" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="storage.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/storage.ts">
+        <metrics statements="32" coveredstatements="0" conditionals="24" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+      </file>
+      <file name="stripe.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/stripe.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="useProgress.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/useProgress.ts">
+        <metrics statements="39" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+      </file>
+      <file name="utils.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/utils.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="websocket.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/websocket.ts">
+        <metrics statements="72" coveredstatements="0" conditionals="47" coveredconditionals="0" methods="17" coveredmethods="0"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="125" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="126" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="129" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="132" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="135" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="165" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="170" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="173" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.ai">
+      <metrics statements="97" coveredstatements="47" conditionals="81" coveredconditionals="12" methods="18" coveredmethods="7"/>
+      <file name="audioMixer.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/audioMixer.ts">
+        <metrics statements="48" coveredstatements="25" conditionals="62" coveredconditionals="9" methods="6" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="79" count="4" type="stmt"/>
+        <line num="80" count="4" type="stmt"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="84" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="93" count="4" type="stmt"/>
+        <line num="107" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="126" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="127" count="2" type="stmt"/>
+        <line num="128" count="2" type="stmt"/>
+        <line num="135" count="2" type="stmt"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="139" count="2" type="stmt"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="141" count="2" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="148" count="4" type="stmt"/>
+        <line num="151" count="2" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="162" count="2" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="167" count="0" type="stmt"/>
+        <line num="170" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="179" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+      </file>
+      <file name="genrePresets.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/genrePresets.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="241" count="2" type="stmt"/>
+        <line num="243" count="2" type="stmt"/>
+        <line num="244" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="247" count="2" type="stmt"/>
+        <line num="248" count="10" type="stmt"/>
+      </file>
+      <file name="masteringPresets.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/masteringPresets.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="141" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="144" count="2" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="171" count="2" type="stmt"/>
+        <line num="172" count="2" type="stmt"/>
+        <line num="173" count="2" type="stmt"/>
+        <line num="185" count="2" type="stmt"/>
+        <line num="186" count="2" type="stmt"/>
+        <line num="189" count="2" type="stmt"/>
+        <line num="190" count="2" type="stmt"/>
+        <line num="192" count="2" type="stmt"/>
+      </file>
+      <file name="stemSeparator.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/stemSeparator.ts">
+        <metrics statements="29" coveredstatements="3" conditionals="15" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="85" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.ai.effects">
+      <metrics statements="138" coveredstatements="138" conditionals="46" coveredconditionals="39" methods="25" coveredmethods="19"/>
+      <file name="delay.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/effects/delay.ts">
+        <metrics statements="36" coveredstatements="36" conditionals="18" coveredconditionals="16" methods="3" coveredmethods="3"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="53" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="75" count="72000" type="stmt"/>
+        <line num="76" count="72000" type="stmt"/>
+        <line num="79" count="72000" type="stmt"/>
+        <line num="80" count="72000" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="72000" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="12000" type="stmt"/>
+        <line num="88" count="72000" type="stmt"/>
+        <line num="91" count="72000" type="cond" truecount="4" falsecount="0"/>
+        <line num="92" count="24000" type="stmt"/>
+        <line num="93" count="24000" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="72000" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="119" count="3" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/effects/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+      </file>
+      <file name="reverb.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/effects/reverb.ts">
+        <metrics statements="53" coveredstatements="53" conditionals="12" coveredconditionals="9" methods="5" coveredmethods="5"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="24" type="stmt"/>
+        <line num="52" count="12" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="65" count="72000" type="stmt"/>
+        <line num="66" count="72000" type="stmt"/>
+        <line num="69" count="72000" type="stmt"/>
+        <line num="70" count="72000" type="stmt"/>
+        <line num="71" count="576000" type="stmt"/>
+        <line num="72" count="576000" type="stmt"/>
+        <line num="75" count="576000" type="stmt"/>
+        <line num="78" count="576000" type="cond" truecount="2" falsecount="0"/>
+        <line num="81" count="576000" type="stmt"/>
+        <line num="84" count="576000" type="stmt"/>
+        <line num="87" count="576000" type="stmt"/>
+        <line num="91" count="72000" type="stmt"/>
+        <line num="92" count="72000" type="stmt"/>
+        <line num="93" count="288000" type="stmt"/>
+        <line num="94" count="288000" type="stmt"/>
+        <line num="96" count="288000" type="stmt"/>
+        <line num="97" count="288000" type="stmt"/>
+        <line num="98" count="288000" type="stmt"/>
+        <line num="100" count="288000" type="stmt"/>
+        <line num="101" count="288000" type="stmt"/>
+        <line num="105" count="72000" type="stmt"/>
+        <line num="108" count="72000" type="cond" truecount="4" falsecount="0"/>
+        <line num="109" count="36000" type="stmt"/>
+        <line num="111" count="36000" type="stmt"/>
+        <line num="116" count="3" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="135" count="3" type="stmt"/>
+      </file>
+      <file name="saturation.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/effects/saturation.ts">
+        <metrics statements="46" coveredstatements="46" conditionals="16" coveredconditionals="14" methods="8" coveredmethods="8"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="23" count="72000" type="stmt"/>
+        <line num="28" count="24000" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="14100" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="4200" type="stmt"/>
+        <line num="35" count="24000" type="stmt"/>
+        <line num="40" count="24000" type="stmt"/>
+        <line num="41" count="24000" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="24000" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="21920" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="68" count="6" type="stmt"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="74" count="6" type="stmt"/>
+        <line num="75" count="144000" type="stmt"/>
+        <line num="76" count="144000" type="cond" truecount="5" falsecount="0"/>
+        <line num="78" count="24000" type="stmt"/>
+        <line num="80" count="24000" type="stmt"/>
+        <line num="82" count="24000" type="stmt"/>
+        <line num="85" count="72000" type="stmt"/>
+        <line num="90" count="6" type="stmt"/>
+        <line num="91" count="6" type="stmt"/>
+        <line num="94" count="6" type="stmt"/>
+        <line num="95" count="144000" type="stmt"/>
+        <line num="99" count="144000" type="stmt"/>
+        <line num="100" count="144000" type="stmt"/>
+        <line num="103" count="144000" type="stmt"/>
+        <line num="104" count="144000" type="stmt"/>
+        <line num="107" count="144000" type="stmt"/>
+        <line num="110" count="144000" type="stmt"/>
+        <line num="113" count="144000" type="stmt"/>
+        <line num="117" count="6" type="stmt"/>
+        <line num="122" count="6" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="136" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.ai.reference">
+      <metrics statements="23" coveredstatements="22" conditionals="8" coveredconditionals="5" methods="5" coveredmethods="5"/>
+      <file name="matcher.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/reference/matcher.ts">
+        <metrics statements="23" coveredstatements="22" conditionals="8" coveredconditionals="5" methods="5" coveredmethods="5"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="54" count="91" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="93" count="21" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="110" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="128" count="3" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="139" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="140" count="3" type="stmt"/>
+        <line num="142" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="143" count="2" type="stmt"/>
+        <line num="145" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="3" type="stmt"/>
+        <line num="148" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="152" count="3" type="stmt"/>
+        <line num="161" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.ai.vocal">
+      <metrics statements="104" coveredstatements="46" conditionals="63" coveredconditionals="23" methods="6" coveredmethods="4"/>
+      <file name="tuner.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/ai/vocal/tuner.ts">
+        <metrics statements="104" coveredstatements="46" conditionals="63" coveredconditionals="23" methods="6" coveredmethods="4"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="39" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="395551" type="stmt"/>
+        <line num="54" count="395551" type="stmt"/>
+        <line num="55" count="395551" type="stmt"/>
+        <line num="56" count="395551" type="stmt"/>
+        <line num="58" count="395551" type="cond" truecount="3" falsecount="1"/>
+        <line num="59" count="395551" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="75" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="85" count="4" type="stmt"/>
+        <line num="87" count="719184" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="110" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="128" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="143" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="144" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="158" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="167" count="0" type="stmt"/>
+        <line num="168" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="177" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="195" count="4" type="stmt"/>
+        <line num="198" count="4" type="stmt"/>
+        <line num="199" count="4" type="stmt"/>
+        <line num="205" count="4" type="stmt"/>
+        <line num="208" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="209" count="3" type="stmt"/>
+        <line num="210" count="3" type="stmt"/>
+        <line num="211" count="3" type="stmt"/>
+        <line num="214" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="215" count="2" type="stmt"/>
+        <line num="216" count="2" type="stmt"/>
+        <line num="217" count="2" type="stmt"/>
+        <line num="220" count="4" type="cond" truecount="2" falsecount="2"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="223" count="0" type="stmt"/>
+        <line num="226" count="4" type="cond" truecount="2" falsecount="3"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="229" count="0" type="stmt"/>
+        <line num="232" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="233" count="2" type="stmt"/>
+        <line num="234" count="2" type="stmt"/>
+        <line num="235" count="2" type="stmt"/>
+        <line num="238" count="4" type="cond" truecount="2" falsecount="2"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="244" count="4" type="cond" truecount="2" falsecount="3"/>
+        <line num="245" count="0" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="247" count="0" type="stmt"/>
+        <line num="251" count="4" type="stmt"/>
+        <line num="252" count="4" type="stmt"/>
+        <line num="254" count="4" type="stmt"/>
+        <line num="255" count="443551" type="stmt"/>
+        <line num="258" count="4" type="stmt"/>
+        <line num="267" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.performance">
+      <metrics statements="61" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="benchmark.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/performance/benchmark.ts">
+        <metrics statements="61" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="151" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.workers">
+      <metrics statements="51" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="15" coveredmethods="0"/>
+      <file name="audio-worker.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/workers/audio-worker.ts">
+        <metrics statements="50" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+      </file>
+      <file name="start-worker.ts" path="/Users/coolvibecoding/Desktop/AI_Mixer_Pro/src/lib/workers/start-worker.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

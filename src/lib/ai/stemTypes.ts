@@ -1,0 +1,1 @@
+export type StemType = 'vocals' | 'drums' | 'bass' | 'other';

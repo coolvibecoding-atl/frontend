@@ -1,0 +1,20 @@
+{
+  "name": "AI Mixer Pro",
+  "short_name": "AI Mixer",
+  "description": "Professional AI-powered audio mixing platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0c0f",
+  "theme_color": "#0a0c0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "productivity", "utilities"],
+  "lang": "en-US"
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="90" fill="#0A0C0F"/>
+  
+  <!-- Outer ring -->
+  <circle cx="96" cy="96" r="85" stroke="#A0522D" stroke-width="4"/>
+  
+  <!-- Inner decorative elements -->
+  <circle cx="96" cy="96" r="70" fill="none" stroke="#CD853F" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Waveform elements -->
+  <path d="M48 96 C60 70 78 70 90 96 C102 122 120 122 132 96" 
+        stroke="#DEB887" stroke-width="6" fill="none" stroke-linecap="round"/>
+        
+  <path d="M60 96 C72 110 90 110 102 96 C114 82 132 82 144 96" 
+        stroke="#D2691E" stroke-width="4" fill="none" stroke-linecap="round"/>
+        
+  <!-- Center circle -->
+  <circle cx="96" cy="96" r="18" fill="#DEB887"/>
+  
+  <!-- Text placeholder (would typically be separate in real implementation) -->
+  <text x="96" y="115" font-family="var(--font-display)" font-size="16" text-anchor="middle" fill="#FDF5E6" letter-spacing="0.5">
+    AI
+  </text>
+  <text x="96" y="135" font-family="var(--font-display)" font-size="12" text-anchor="middle" fill="#FDF5E6" letter-spacing="0.5">
+    MIXER
+  </text>
+</svg>

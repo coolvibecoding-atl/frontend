@@ -1,0 +1,7 @@
+# Minimal requirements for Spleeter-based stem separation
+spleeter>=2.1.0
+librosa>=0.8.0
+numpy>=1.16.0
+scipy>=1.4.0
+soundfile>=0.10.0
+ffmpeg-python>=0.2.0

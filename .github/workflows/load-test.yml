@@ -1,0 +1,62 @@
+name: Load Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      connections:
+        description: 'Number of concurrent connections'
+        required: false
+        default: '50'
+        type: string
+      duration:
+        description: 'Test duration in seconds'
+        required: false
+        default: '30'
+        type: string
+  schedule:
+    # Run load tests weekly on Sundays at 2 AM
+    - cron: '0 2 * * 0'
+
+jobs:
+  load-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Start server
+        run: npm run start &
+        env:
+          NODE_ENV: production
+      
+      - name: Wait for server
+        run: sleep 10
+      
+      - name: Run Load Test
+        run: |
+          npx autocannon -c ${{ github.event.inputs.connections || '50' }} \
+            -d ${{ github.event.inputs.duration || '30' }} \
+            -m GET \
+            http://localhost:3000/api/health
+      
+      - name: Run Upload Load Test
+        run: |
+          node load-test.js
+      
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: load-test-results
+          path: load-test-results/

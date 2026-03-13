@@ -1,0 +1,43 @@
+# Alertmanager Configuration for AI Mixer Pro
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'alerts@aimixer.pro'
+  smtp_auth_username: 'your-email@gmail.com'
+  smtp_auth_password: 'your-app-password'
+
+route:
+  group_by: ['alertname', 'cluster']
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 1h
+  receiver: 'team-notifications'
+  routes:
+    - match:
+        severity: critical
+      receiver: 'critical-alerts'
+      group_wait: 5s
+
+receivers:
+  - name: 'team-notifications'
+    email_configs:
+      - to: 'team@aimixer.pro'
+        headers:
+          subject: 'AI Mixer Pro Alert: {{ .GroupLabels.alertname }}'
+
+  - name: 'critical-alerts'
+    email_configs:
+      - to: 'oncall@aimixer.pro'
+        headers:
+          subject: 'CRITICAL: {{ .GroupLabels.alertname }}'
+    slack_configs:
+      - api_url: 'YOUR_SLACK_WEBHOOK_URL'
+        channel: '#critical-alerts'
+        title: 'CRITICAL: {{ .GroupLabels.alertname }}'
+        text: '{{ .CommonAnnotations.summary }}'
+
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'cluster']
