@@ -158,15 +158,14 @@ export default function HeroConsole() {
               <div className="flex items-center gap-2">
                 {/* VU meters */}
                 <div className="vu-meter" role="img" aria-label="Audio level meter">
-                  {/* eslint-disable-next-line react/no-array-index-key */}
-                  {Array.from({ length: 12 }).map((_, i) => {
-                    const level = Math.min(100, Math.max(0, audioLevel + (Math.random() - 0.5) * 20));
-                    const height = Math.max(4, Math.min(24, (level / 100) * 24));
-                    return (
-                      <motion.div
-                        key={`vu-${i}`}
-                        animate={{ height }}
-                        transition={{ duration: 0.1 }}
+                    {Array.from({ length: 12 }).map((_, i) => {
+                      const level = Math.min(100, Math.max(0, audioLevel + (Math.random() - 0.5) * 20));
+                      const height = Math.max(4, Math.min(24, (level / 100) * 24));
+                      return (
+                        <motion.div
+                          key={`vu-${i}-${audioLevel}`}
+                          animate={{ height }}
+                          transition={{ duration: 0.1 }}
                         className={`vu-segment ${
                           i < 6 ? 'active-green' : i < 10 ? 'active-yellow' : 'active-red'
                         }`}
@@ -184,19 +183,19 @@ export default function HeroConsole() {
               </div>
             </div>
             
-                {/* Waveform visualization */}
-                <div className="px-6 py-6 bg-[var(--bg-primary)] border-b border-[var(--border-default)]">
-                  <div className="waveform-display">
-                    {waveformData.map((val, idx) => (
-                      <motion.div 
-                        key={idx}
-                        style={{ height: `${val}%` }}
-                        transition={{ duration: 0.1 }}
-                        className="waveform-bar"
-                      />
-                    ))}
-                  </div>
-                </div>
+                 {/* Waveform visualization */}
+                 <div className="px-6 py-6 bg-[var(--bg-primary)] border-b border-[var(--border-default)]">
+                   <div className="waveform-display">
+                     {waveformData.map((val, idx) => (
+                       <motion.div 
+                         key={`waveform-${idx}`}
+                         style={{ height: `${val}%` }}
+                         transition={{ duration: 0.1 }}
+                         className="waveform-bar"
+                       />
+                     ))}
+                   </div>
+                 </div>
             
             {/* Upload content */}
             <div className="p-8 bg-[var(--bg-secondary)] rounded-b-lg">
