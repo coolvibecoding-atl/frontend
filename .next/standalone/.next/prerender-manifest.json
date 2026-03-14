@@ -49,7 +49,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/profile": {
+    "/sign-up": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -62,8 +62,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/profile",
-      "dataRoute": "/dashboard/profile.rsc",
+      "srcRoute": "/sign-up",
+      "dataRoute": "/sign-up.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -97,7 +97,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/sign-up": {
+    "/dashboard/profile": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -110,8 +110,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/sign-up",
-      "dataRoute": "/sign-up.rsc",
+      "srcRoute": "/dashboard/profile",
+      "dataRoute": "/dashboard/profile.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -221,8 +221,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "28479b4db1ebe115bb5ea9715271abd5",
-    "previewModeSigningKey": "b4e55e9565f9d460d3a440efea918eda731d952e49ebbcb5970bf1c7bfad5086",
-    "previewModeEncryptionKey": "f5f73c538c50e825c2b4c8f6b84cf3c2a5d3a470f0b010a89384f0695965b38b"
+    "previewModeId": "eb1ba7748f94a96d9f0667a47ce8615d",
+    "previewModeSigningKey": "81bc6d3e3c70735a06dc28066c7c6d19f3bc8e26c6831f78ab61eb8050935469",
+    "previewModeEncryptionKey": "0358bd103854206c7748673225a43271f853a8adae975860445b3c476348de90"
   }
 }

@@ -1,5 +1,50 @@
 @import "tailwindcss";
 
+@theme {
+  /* Base colors - warm organic theme */
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-bg-elevated: var(--bg-elevated);
+  
+  /* Accent colors - warm studio wood palette */
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-tertiary: var(--accent-tertiary);
+  --color-accent-warning: var(--accent-warning);
+  
+  /* Text colors */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  
+  /* Border colors */
+  --color-border-default: var(--border-default);
+  --color-border-hover: var(--border-hover);
+  --color-border-active: var(--border-active);
+  
+  /* Console-specific surfaces */
+  --color-surface-glass: var(--surface-glass);
+  --color-surface-solid: var(--surface-solid);
+  --color-surface-led: var(--surface-LED);
+  
+  /* Typography */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+  
+  /* Shadows */
+  --shadow-glow: var(--shadow-glow);
+  --shadow-glow-lg: var(--shadow-glow-lg);
+  
+  /* Radii */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+}
+
 :root {
   /* Base colors - warm organic theme */
   --bg-primary: #0a0c0f;
@@ -118,7 +163,7 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-
+  
   /* Disable CSS keyframe animations */
   @keyframes pulse {
     from, to { opacity: 1; }
