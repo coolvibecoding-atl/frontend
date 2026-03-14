@@ -1,32 +1,30 @@
 'use client';
 
 
-import LandingNav from '@/components/sections/LandingNav';
-import HeroConsole from '@/components/sections/HeroConsole';
-import HowItWorks from '@/components/sections/HowItWorks';
-import FeatureRack from '@/components/sections/FeatureRack';
-import PricingCard from '@/components/sections/PricingCard';
-import FAQ from '@/components/sections/FAQ';
-import Footer from '@/components/sections/Footer';
-import Testimonials from '@/components/sections/Testimonials';
-import PressSection from '@/components/sections/PressSection';
+import LandingNavOXI from '@/components/sections/LandingNavOXI';
+import HeroOXI from '@/components/sections/HeroOXI';
+import HowItWorksOXI from '@/components/sections/HowItWorksOXI';
+import FeatureRackOXI from '@/components/sections/FeatureRackOXI';
+import TestimonialsOXI from '@/components/sections/TestimonialsOXI';
+import PricingOXI from '@/components/sections/PricingOXI';
+import FAQOXI from '@/components/sections/FAQOXI';
+import FooterOXI from '@/components/sections/FooterOXI';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--bg-primary)] text-white wood-grain">
-      <LandingNav />
+    <div className="min-h-screen bg-[#000000] text-white">
+      <LandingNavOXI />
       
       <main id="main-content">
-        <HeroConsole />
-        <HowItWorks />
-        <FeatureRack />
-        <Testimonials />
-        <PressSection />
-        <PricingCard />
-        <FAQ />
+        <HeroOXI />
+        <HowItWorksOXI />
+        <FeatureRackOXI />
+        <TestimonialsOXI />
+        <PricingOXI />
+        <FAQOXI />
       </main>
       
-      <Footer />
+      <FooterOXI />
     </div>
   );
 }
